@@ -15,7 +15,7 @@ impl Rect{
     }
 
     fn perimeter(&self) -> u32{
-        2*(self.width * self.height)
+        2*(self.width + self.height)
     }
 
     fn print_smtg(){
